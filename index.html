@@ -13,9 +13,33 @@
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho_menu">menu</button>
+        <button class="cabecalho_menu" aria-label="Menu"><i></i></button>
         <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho_logo">
-        <button class="cabecalho_notificacao">notificação</button>
+        <button class="cabecalho_notificacao" aria-label="Notificação"><i></i></button>
     </header>
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral_logo">
+        <a href="#" class="menu-lateral_link menu-lateral_link--inicio">Inicio</a>
+        <a href="#" class="menu-lateral_link menu-lateral_link--videos">Videos</a>
+        <a href="#" class="menu-lateral_link menu-lateral_link--picos">Picos</a>
+        <a href="#" class="menu-lateral_link menu-lateral_link--integrantes">Integrantes</a>
+        <a href="#" class="menu-lateral_link menu-lateral_link--camisas">Camisas</a>
+        <a href="#" class="menu-lateral_link menu-lateral_link--pinturas">Pinturas</a>
+    </nav>
+    <main class="principal">
+        <h2 class="cartao">Início</h2>
+        <article class="cartao">
+            <img src="assets/img/banner-mobile_1.png" alt="Banner do cartao" class="cartao_imagem">
+            <div class="cartao_conteudo">
+                <p class="cartao_destaque">Vídeo em destaque</p>
+                <h3 class="cartao_titulo">HZC - Título</h3>
+                <p class="cartao_perfil">Bruno Lopez</p>
+                <p class="cartao_info cartao_info--tempo">33 minutos</p>
+                <p class="cartao_info cartao_info--visualizacao">33 visualizações</p>
+                <button class="cartao_botao cartao_botao--play cartao_botao--destaque"></button>
+            </div>
+        </article>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
